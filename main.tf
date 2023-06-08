@@ -10,7 +10,7 @@ resource "google_compute_instance" "vm_instance" {
   zone         = "europe-north-a"
   boot_disk {
     initialize_params {
-      size = "30"
+      size = "40"
       image = "ubuntu-2004-focal-v20211212"
     }
   }
